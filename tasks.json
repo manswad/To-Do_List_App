@@ -3,6 +3,6 @@
         "title": "Sample",
         "description": "Automated To-Do List App",
         "due_date": "2025-01-05",
-        "done": true
+        "done": false
     }
 ]

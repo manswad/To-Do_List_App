@@ -7,7 +7,7 @@ from tkinter import messagebox, ttk
 from pystray import Icon, Menu, MenuItem
 from PIL import Image, ImageDraw
 
-# Task storage
+# Task storage 
 tasks = []
 
 # Load tasks from JSON file
