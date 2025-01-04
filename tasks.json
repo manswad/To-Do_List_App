@@ -1,8 +1,8 @@
 [
     {
-        "title": "Complete this app",
+        "title": "Sample",
         "description": "Automated To-Do List App",
         "due_date": "2025-01-05",
-        "done": false
+        "done": true
     }
 ]
