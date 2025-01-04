@@ -96,9 +96,9 @@ def on_exit(icon, item):
 
 def create_image():
     # Create a small icon for the system tray
-    image = Image.new('RGB', (64, 64), color=(255, 255, 255))
+    image = Image.new('RGB', (64, 64), color=(0, 128, 255))
     draw = ImageDraw.Draw(image)
-    draw.rectangle((0, 0, 64, 64), fill=(0, 128, 255))
+    draw.rectangle((0, 0, 64, 64), fill=(255, 255, 255))
     return image
 
 def minimize_to_tray():
@@ -109,7 +109,7 @@ def minimize_to_tray():
 # Create GUI window
 root = Tk()
 root.title("Task Manager")
-root.geometry("600x400")
+root.geometry("600x450")
 
 # Input frame
 input_frame = Frame(root, padx=10, pady=10)
